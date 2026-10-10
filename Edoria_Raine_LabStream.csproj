@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Edoria_Raine_LabStream</RootNamespace>
+    <AssemblyName>Edoria_Raine_LabStream_FIXED</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="FrmLab1.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmLab1.Designer.cs"><DependentUpon>FrmLab1.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="FrmLab1.resx"><DependentUpon>FrmLab1.cs</DependentUpon></EmbeddedResource>
+    <Compile Update="FrmFileName.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmFileName.Designer.cs"><DependentUpon>FrmFileName.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="FrmFileName.resx"><DependentUpon>FrmFileName.cs</DependentUpon></EmbeddedResource>
+    <Compile Update="FrmRegistration.cs"><SubType>Form</SubType></Compile>
+    <Compile Update="FrmRegistration.Designer.cs"><DependentUpon>FrmRegistration.cs</DependentUpon></Compile>
+    <EmbeddedResource Update="FrmRegistration.resx"><DependentUpon>FrmRegistration.cs</DependentUpon></EmbeddedResource>
+  </ItemGroup>
+</Project>
